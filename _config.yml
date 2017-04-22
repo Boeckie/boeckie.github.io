@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Boeckie"
+title                    : "Learning Learning"
 title_separator          : "-"
 name                     : "boeckie"
 description              : "AI experiments"
@@ -77,10 +77,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Bart De Boeck"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "I'm a machine learning newby focussing on deep learning, a software developer with over 15 years experience and co-founder of engine27.be, based in Antwerp, Belgium."
+  location         : "Antwerp, Belgium"
   email            :
   uri              :
   bitbucket        :
@@ -174,7 +174,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Brussels # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
@@ -241,6 +241,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
